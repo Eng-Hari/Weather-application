@@ -16,4 +16,4 @@ A simple and interactive weather web application that allows users to check the 
 - **Database**: MySQL
 - **API**: [OpenWeatherMap API](https://openweathermap.org/api)
 
-Made with ❤️ by Hariharan S
+Made  by Hariharan S
