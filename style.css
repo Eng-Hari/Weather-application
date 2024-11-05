@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3MDZ8MHwxfGFsbHwxfHx8fHx8fHwxNjcwMzU1MjM1&ixlib=rb-1.2.1&q=80&w=1080');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+
+.header {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+}
+
+.container {
+    color: black;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 90%;
+    margin-top: 80px; /* To avoid overlap with header */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+input[type="text"] {
+    padding: 12px;
+    border: 1px solid #00796b;
+    border-radius: 6px;
+    width: 70%;
+    margin-right: 10px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #004d40;
+    outline: none;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    background-color: #00796b;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+.weather-info {
+    margin-top: 20px;
+    display: none;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.footer {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+}
+
+@media (max-width: 600px) {
+    input[type="text"] {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
