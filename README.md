@@ -12,8 +12,7 @@ A simple and interactive weather web application that allows users to check the 
 ## Tech Stack
 
 - **Frontend**: HTML, CSS, JavaScript
-- **Backend**: PHP
-- **Database**: MySQL
+- **Backend**: Javascript
 - **API**: [OpenWeatherMap API](https://openweathermap.org/api)
 
 Made  by Hariharan S
